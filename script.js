@@ -99,6 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const FNFBaldi = document.getElementById("fnfbaldi");
   const FNFMods = document.getElementById("fnfmods");
   const FNFSonic = document.getElementById("fnfsonic");
+  const Frick3 = document.getElementById("frick3");
   const Galaxy = document.getElementById("galaxy");
   const GameInside = document.getElementById("gameinside");
   const Garcello = document.getElementById("garcello");
@@ -1365,6 +1366,11 @@ document.addEventListener("DOMContentLoaded", () => {
   if (FNAFW) {
     FNAFW.addEventListener("click", function () {
       window.location.href = "../indie-bin/fnafw.html";
+    });
+  }
+    if (Frick3) {
+    Frick3.addEventListener("click", function () {
+      window.location.href = "../indie-bin/frick3.html";
     });
   }
   if (GOI) {
